@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+ nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    gap: 40px; /* define espaçamento entre os itens */
+    flex-wrap: wrap;
+    
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+body {
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      color: #1D53E7;
+      background-color: #0C0235;
+      padding: 2rem;
+      font-size: 1.5rem;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;  
+      color: #000000;;
+    }
+    h1{
+      color:#1D53E7;
+
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+.cta-bar {
+  flex-wrap: wrap;  
+  display: flex;
+  justify-content: flex-start; /* alinha os botões à esquerda */
+  gap: 1rem; /* espaçamento entre os botões */
+  max-width: 800px;
+  margin: 2rem auto 0 auto;
+  padding: 1rem;
+}
+
+   /* Botão WhatsApp */
+.cta.a a {
+  display: inline-block;
+  background-color: #0C0235;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* Botão Instagram */
+.cta.b a {
+  display: inline-block;
+  background-color: #0C0235;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.cta.c a {
+  display: inline-block;
+  background-color: #0C0235;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+
+.footer {
+      text-align: center;
+      padding: 1rem;
+      background: #020000b0;
+      color: white;
+      font-size: 0.9rem;
+ }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 1000px; 
+    margin: auto;
+    padding: 2rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin: 1rem;
+      padding: 2rem;
+      max-width: 300px;
+      flex: 1 1 calc(50% - 2rem);
+      text-align: center;
+      transition: transform 0.3s;
+      font-size: 1.1rem;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card h2 {
+      color: #1D53E7;
+    }
+    .price {
+      font-size: 1.8rem;
+      color: #1D53E7;
+      margin: 1rem 0;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 0.5rem 0;
+    }
+  .formulario-contato {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+.formulario-contato h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+  }
+
+.campo-form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  }
+
+.campo-form label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.campo-form input,
+.campo-form textarea {
+  padding: 12px;
+  border: 1px solid #0C0235;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.botao-enviar {
+  background-color: #0C0235;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.botao-enviar:hover {
+  background-color: #0C0235;
+}
+
+.botao-enviar:active {
+  transform: scale(0.98);
+}
+
+    
+ 
+
+
+  
